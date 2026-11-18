@@ -1,4 +1,4 @@
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 {% set python_min = "3.11.0" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/j/jax-rrtmgp/jax_rrtmgp-{{ version }}.tar.gz
-  sha256: a10d618ebbdbb2347fdad8c5b8ed3aba21fbe93f844dac0d588c016d903a5e86
+  sha256: 4533432d595b0e74a70178d06888e5c2bb544287cc1c7499f36cb3f8b812b7ba
 
 build:
   noarch: python
